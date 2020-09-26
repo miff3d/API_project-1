@@ -9,8 +9,8 @@
 
 :root {
   --blue: #3490dc;
-  --indigo: #6574cd;
-  --purple: #9561e2;
+  --indigo: #6574cd:
+  --purple: #9561e2:
   --pink: #f66d9b;
   --red: #e3342f;
   --orange: #f6993f;
@@ -30,11 +30,11 @@
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --breakpoint-sm: 576px:
+  --breakpoint-md: 768px:
+  --breakpoint-lg: 992px:
+  --breakpoint-xl: 1200px:
+  --font-family-sans-serif: "Nunito", sans-serif:
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -44,12 +44,14 @@
   box-sizing: border-box;
 }
 
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 
 article,
 aside,
