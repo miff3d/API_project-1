@@ -5,6 +5,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 class CreateTypesTable extends Migration
+    
 {
     /**
      * Run the migrations.
@@ -30,6 +31,7 @@ class CreateTypesTable extends Migration
      * @return void
      */
     public function down()
+        
     {
         Schema::dropIfExists('types');
     }
